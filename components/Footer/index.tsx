@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -11,29 +12,28 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-12 max-w-[240px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="images/logo/buzz.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
+                    width={100}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                    src="images/logo/buzz.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
+                    width={100}
                     height={30}
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  The best offer for your Career
                 </p>
                 <div className="flex items-center">
-                  <a
+                  {/* <a
                     href="/"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
@@ -74,11 +74,11 @@ const Footer = () => {
                     >
                       <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
                     </svg>
-                  </a>
+                  </a> */}
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/company/internbuzz/" target="blank"  rel=" noreferrer"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
+                    className="mr-6  inline-block text-base font-medium text-body-color hover:text-primary "
                   >
                     <svg
                       width="17"
@@ -105,25 +105,25 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      Home{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      About Us{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/features"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      Services{" "}
                     </a>
                   </li>
                 </ul>
@@ -133,19 +133,19 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Join Us
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/internship"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      TOS{" "}
+                      Internships{" "}
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -162,7 +162,7 @@ const Footer = () => {
                       {" "}
                       Refund Policy{" "}
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -170,16 +170,45 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Contact Us
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="mailto:techinternbuzz@gmail.com"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
+                      {"Email: "}
+                      techinternbuzz@gmail.com
                       {" "}
-                      Open Support Ticket{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/internbuzz/" target="blank"   rel=" noreferrer" aria-label="social-link"  className="mr-3 inline-block text-base font-medium text-body-color hover:text-primary "
+                    
+                    >
+                      {" "} 
+                      
+                    {/* <svg
+                      width="17"
+                      height="16"
+                      viewBox="0 0 17 16"
+                      className="fill-current"
+                    >
+                      <path d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z" />
+                    </svg> */}
+                     
+                     <svg className="mr-2 fill-current  inline-block text-base font-medium text-body-color hover:text-primary "
+                      width="17"
+                      height="16"
+                      viewBox="0 0 17 16"
+                      
+                    >
+                      <path d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z" />
+                    </svg>
+                        
+                  LinkedIn {"  "}
                     </a>
                   </li>
                   <li>
@@ -188,16 +217,8 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
+                      {/* About */}
                       {" "}
-                      About{" "}
                     </a>
                   </li>
                 </ul>
@@ -207,9 +228,12 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
-            </p>
+              <p className="text-center text-base text-body-color dark:text-white">
+                Copyright ©
+                2023 InternBuzz | All rights
+                reserved
+              </p>
+            
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
