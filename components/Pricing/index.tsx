@@ -62,43 +62,82 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
+            packageName="Web Development"
             price={isMonthly ? "" : ""}
             duration={isMonthly ? "" : ""}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+           
           </PricingBox>
           <PricingBox
-            packageName="Basic"
+            packageName=" App Development"
             price={isMonthly ? "" : ""}
             duration={isMonthly ? "" : ""}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+             
           </PricingBox>
           <PricingBox
-            packageName="Plus"
+            packageName="C/C++"
             price={isMonthly ? "" : ""}
             duration={isMonthly ? "" : ""}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+             
+          </PricingBox>
+          <PricingBox
+            packageName="Java Development"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle=""
+          >
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+             
+          </PricingBox>
+          <PricingBox
+            packageName="Python Programming"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle=""
+          >
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+             
+          </PricingBox>
+          <PricingBox
+            packageName="Data Analysis"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle=""
+          >
+             <OfferList text="Course Completion Certificate" status="active" />
+            <OfferList text=" Internship Completion Certificate" status="active" />
+            <OfferList text="Excellence Performance Certificate" status="active" />
+            <OfferList text="Recommendation Letter" status="active" />
+            <OfferList text="Internship Offer Letter" status="active" />
+             
           </PricingBox>
         </div>
       </div>
