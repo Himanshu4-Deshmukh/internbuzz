@@ -20,12 +20,19 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
+     
+      <SectionTitle
+          title="About Us"
+          paragraph=" We are  dedicated to crafting exceptional online experiences for businesses of all sizes. With our team of skilled professionals and a focus on innovation, we are committed to delivering cutting-edge, user-friendly websites that elevate your digital presence to new heights."
+          center
+          width="665px"
+        />
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We help to grow your presence online."
+                paragraph="We understand the significance of a strong online presence in today's digital landscape. Our mission is to empower businesses like yours to thrive in the virtual realm."
                 mb="44px"
               />
 
@@ -35,15 +42,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Premium Quality Website Designs" />
+                    <List text="Fully Responsive " />
+                    <List text="User Friendly " />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Variety Of Frameworks" />
+                    <List text="Delivered In Time" />
+                    {/* <List text="User friendly Website " /> */}
                   </div>
                 </div>
               </div>
