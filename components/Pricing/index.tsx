@@ -67,11 +67,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
            
           </PricingBox>
           <PricingBox
@@ -80,11 +80,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
              
           </PricingBox>
           <PricingBox
@@ -93,11 +93,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
              
           </PricingBox>
           <PricingBox
@@ -106,11 +106,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
              
           </PricingBox>
           <PricingBox
@@ -119,11 +119,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
              
           </PricingBox>
           <PricingBox
@@ -132,11 +132,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle=""
           >
-             <OfferList text="Course Completion Certificate" status="active" />
+             <OfferList text="Internship Offer Letter" status="active" />
             <OfferList text=" Internship Completion Certificate" status="active" />
             <OfferList text="Excellence Performance Certificate" status="active" />
             <OfferList text="Recommendation Letter" status="active" />
-            <OfferList text="Internship Offer Letter" status="active" />
+            
              
           </PricingBox>
         </div>
