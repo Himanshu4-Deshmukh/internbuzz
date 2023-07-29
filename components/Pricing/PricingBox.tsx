@@ -75,7 +75,7 @@ const PricingBox = (props: {
 
       </div>
       <div className="mb-8 mt-5 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf00AjPhbqp-aD3Zcg5XwDVejs8EsJGHU3DKpSjW8cMSJbVpQ/viewform?usp=send_form" target="_blank" rel="noopener noreferrer">
+        <a href="https://forms.gle/ti4ixnW2swKKDakp6" target="_blank" rel="noopener noreferrer">
           <button className="flex w-full items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
             Register Now
           </button>
