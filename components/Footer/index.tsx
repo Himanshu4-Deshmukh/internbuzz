@@ -230,7 +230,7 @@ const Footer = () => {
           <div className="container">
               <p className="text-center text-base text-body-color dark:text-white">
                 Copyright ©
-                2023 InternBuzz | All rights
+                2023 InfoBuzz | All rights
                 reserved
               </p>
             
