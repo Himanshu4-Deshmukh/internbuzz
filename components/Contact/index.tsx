@@ -32,7 +32,8 @@ const Contact = () => {
                      
                         
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      >techinternbuzz@gmail.com</p>
+                      >infobuzztechnologies@gmail.com
+                      </p>
                     </div>
                   </div>
                   <div className="w-full px-4 md:w-1/2">
@@ -43,14 +44,14 @@ const Contact = () => {
                       >
                         LinkedIn
                       </label>
-                      <a href="https://www.linkedin.com/company/internbuzz/"  rel=" noreferrer" target="_blank">
+                      <a href="https://www.linkedin.com/company/infobuzz-technologies/"  rel=" noreferrer" target="_blank">
                         
                       <p
                        
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       >
                          {/* <a
-                    href="https://www.linkedin.com/company/internbuzz/"  rel="noopener noreferrer" target="_blank"
+                    href="https://www.linkedin.com/company/infobuzz-technologies/"  rel="noopener noreferrer" target="_blank"
                     aria-label="social-link"
                     className="mr-1  inline-block text-base font-medium text-body-color hover:text-primary "
                   >

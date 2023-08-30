@@ -76,7 +76,7 @@ const Footer = () => {
                     </svg>
                   </a> */}
                   <a
-                    href="https://www.linkedin.com/company/internbuzz/" target="blank"  rel=" noreferrer"
+                    href="https://www.linkedin.com/company/infobuzz-technologies/" target="blank"  rel=" noreferrer"
                     aria-label="social-link"
                     className="mr-6  inline-block text-base font-medium text-body-color hover:text-primary "
                   >
@@ -175,17 +175,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="mailto:techinternbuzz@gmail.com"
+                      href="mailto:infobuzztechnologies@gmail.com
+"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {"Email: "}
-                      techinternbuzz@gmail.com
+                      infobuzztechnologies@gmail.com
+
                       {" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/internbuzz/" target="blank"   rel=" noreferrer" aria-label="social-link"  className="mr-3 inline-block text-base font-medium text-body-color hover:text-primary "
+                      href="https://www.linkedin.com/company/infobuzz-technologies/" target="blank"   rel=" noreferrer" aria-label="social-link"  className="mr-3 inline-block text-base font-medium text-body-color hover:text-primary "
                     
                     >
                       {" "} 

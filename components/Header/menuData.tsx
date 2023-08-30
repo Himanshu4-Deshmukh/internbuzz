@@ -31,6 +31,12 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
+  // {
+  //   id: 5,
+  //   title: "Verification",
+  //   path: "https://internbuzz.vercel.app/verification.html",
+  //   newTab: false,
+  // },
 
   // {
   //   id: 4,
