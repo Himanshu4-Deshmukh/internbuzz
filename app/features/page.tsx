@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Features from "@/components/Features";
+import Services from "@/components/Services";
 
 const features = () => {
   return (
@@ -9,7 +9,7 @@ const features = () => {
         description="We serve you as your comfort"
       />
 
-      <Features/>
+      <Services/>
       
     </>
   );

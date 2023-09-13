@@ -1,3 +1,4 @@
+import Who from "@/components/Who";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 // import Blog from "@/components/Blog";
@@ -10,6 +11,7 @@ import Pricing from "@/components/Pricing";
 // import Testimonials from "@/components/Testimonials";
 // import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
+import Services from "@/components/Services";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,13 +20,15 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
+      <Who/>
+      <Services/>
+      {/* <Features /> */}
       {/* <Video />
       <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       {/* <Testimonials /> */}
-      <Pricing />
+      {/* <Pricing /> */}
       {/* <Blog /> */}
       <Contact />
     </>

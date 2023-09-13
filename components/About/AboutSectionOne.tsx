@@ -22,10 +22,10 @@ const AboutSectionOne = () => {
       <div className="container">
      
       <SectionTitle
-          title="About Us"
+          title="Why Choose Us"
           paragraph=" We are  dedicated to crafting exceptional online experiences for businesses of all sizes. With our team of skilled professionals and a focus on innovation, we are committed to delivering cutting-edge, user-friendly websites that elevate your digital presence to new heights."
           center
-          width="665px"
+          width="800px"
         />
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
