@@ -26,8 +26,8 @@ const FeatureServices = () => {
           {/* Feature 1 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://procohat.com/wp-content/uploads/2022/02/Web_Applications-1-e1661846421529-300x298.png"
-              alt="Feature 1"
+              src="https://infobuzz.w3spaces.com/img/1.png"
+              alt="Web Application"
               className="w-25 h-25 mb-4"
             />
           
@@ -36,8 +36,8 @@ const FeatureServices = () => {
           </div>
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://procohat.com/wp-content/uploads/2022/02/Mobile_Applications-1-300x300.png"
-              alt="Feature 1"
+              src="https://infobuzz.w3spaces.com/img/2.png"
+              alt="App - Dev"
               className="w-25 h-25 mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">App - Dev</h3>
@@ -47,8 +47,8 @@ const FeatureServices = () => {
           {/* Feature 2 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://procohat.com/wp-content/uploads/2022/02/EVENTS-300x291.png"
-              alt="Feature 2"
+              src="https://infobuzz.w3spaces.com/img/3.png"
+              alt="UI/UX"
               className="w-25 h-25 mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">UI/UX</h3>
@@ -58,8 +58,8 @@ const FeatureServices = () => {
           {/* Feature 3 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://img.freepik.com/free-vector/flat-design-content-management-system-illustrated_23-2148816268.jpg?w=740&t=st=1694624301~exp=1694624901~hmac=bd467852b5f0c9504953a1ec835cd3d5a8f707a0378694e423156ce3d2ca3985"
-              alt="Feature 3"
+              src="https://infobuzz.w3spaces.com/img/4.png"
+              alt="Content Creation"
               className="w-25 h-25 mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Content Creation</h3>
@@ -69,7 +69,7 @@ const FeatureServices = () => {
           {/* Feature 4 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://procohat.com/wp-content/uploads/2022/02/Web_Applications-1-e1661846421529-300x298.png"
+              src="https://infobuzz.w3spaces.com/img/5.png"
               alt="Feature 4"
               className="w-25 h-25 mb-4"
             />
