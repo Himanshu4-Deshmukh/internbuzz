@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="lg:ml-auto lg:text-right">
               <div className="relative z-10 inline-block pt-11 lg:pt-0">
                 <img
-                  src="https://codexxtechnologies.w3spaces.com/img/who.png"
+                  src="https://infobuzz.w3spaces.com/img/1.png"
                   alt="hero"
                   className="max-w-full lg:ml-auto"
                 />

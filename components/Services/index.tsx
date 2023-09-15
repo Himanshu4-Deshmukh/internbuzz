@@ -26,7 +26,7 @@ const FeatureServices = () => {
           {/* Feature 1 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://infobuzz.w3spaces.com/img/1.png"
+              src="https://infobuzz.w3spaces.com/img/2.png"
               alt="Web Application"
               className="w-25 h-25 mb-4"
             />
@@ -36,7 +36,7 @@ const FeatureServices = () => {
           </div>
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://infobuzz.w3spaces.com/img/2.png"
+              src="https://infobuzz.w3spaces.com/img/3.png"
               alt="App - Dev"
               className="w-25 h-25 mb-4"
             />
@@ -47,7 +47,7 @@ const FeatureServices = () => {
           {/* Feature 2 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://infobuzz.w3spaces.com/img/3.png"
+              src="https://infobuzz.w3spaces.com/img/4.png"
               alt="UI/UX"
               className="w-25 h-25 mb-4"
             />
@@ -69,7 +69,7 @@ const FeatureServices = () => {
           {/* Feature 4 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://infobuzz.w3spaces.com/img/5.png"
+              src="https://infobuzz.w3spaces.com/img/4.png"
               alt="Feature 4"
               className="w-25 h-25 mb-4"
             />
