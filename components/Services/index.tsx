@@ -22,7 +22,7 @@ const FeatureServices = () => {
             </div>
           </div>
         </div>
-        <div className="grid drop-shadow-lg grid-cols-1 md:grid-cols-5 gap-6">
+        <div className="grid drop-shadow-lg grid-cols-1 md:grid-cols-4 gap-6">
           {/* Feature 1 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
@@ -58,7 +58,7 @@ const FeatureServices = () => {
           {/* Feature 3 */}
           <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
-              src="https://infobuzz.w3spaces.com/img/4.png"
+              src="https://infobuzz.w3spaces.com/img/5.png"
               alt="Content Creation"
               className="w-25 h-25 mb-4"
             />
@@ -67,15 +67,14 @@ const FeatureServices = () => {
           </div>
 
           {/* Feature 4 */}
-          <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
+          {/* <div className="bg-white rounded-lg p-6 shadow-md flex flex-col items-center">
             <img
               src="https://infobuzz.w3spaces.com/img/4.png"
               alt="Feature 4"
               className="w-25 h-25 mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Feature 4</h3>
-            {/* <p className="text-gray-600">Description of feature 4.</p> */}
-          </div>
+             </div> */}
         </div>
       </div>
     </section>
