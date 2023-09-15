@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="lg:ml-auto lg:text-right">
               <div className="relative z-10 inline-block pt-11 lg:pt-0">
                 <img
-                  src="https://img.freepik.com/free-vector/business-team-brainstorm-idea-lightbulb-from-jigsaw-working-team-collaboration-enterprise-cooperation-colleagues-mutual-assistance-concept-bright-vibrant-violet-isolated-illustration_335657-580.jpg?w=826&t=st=1694624143~exp=1694624743~hmac=c228e2b6cf4ab9b4394b4316a68105122248cd8bd1a1f8f4271247a6d5e2b41f"
+                  src="https://codexxtechnologies.w3spaces.com/img/who.png"
                   alt="hero"
                   className="max-w-full lg:ml-auto"
                 />
